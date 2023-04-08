@@ -1,0 +1,61 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border-color: none;
+  height: 50vh;
+  width: 70vh;
+  margin: auto;
+  padding: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+}
+
+.button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  width: 70px;
+  margin: 35px;
+}
+
+.emoji-image {
+  height: 80px;
+  width: 70px;
+}
+
+.heart-image {
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  margin: auto;
+}
+
+.thankyou {
+  font-size: 20px;
+  text-align: center;
+}
+
+.feedback-description {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.emoji-item-container {
+  display: flex;
+  list-style-type: none;
+}
